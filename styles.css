@@ -1,0 +1,149 @@
+/* Basic Styles */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner Image */
+.banner-header {
+    text-align: center;
+    padding: 0;
+}
+
+.banner-image {
+    width: 50%;
+    height: auto;
+    max-height: 800px;
+    object-fit: cover;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #ec1717;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(42, 230, 107);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #ff5722;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Courses Section */
+#courses ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#courses ul li {
+    background-color: #db1616;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 200px;
+}
+
+/* Registration Form */
+#register {
+    background-color: #9a76ea;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.registration-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.registration-form input, .registration-form select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.submit-button {
+    background-color: #ff5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #e64a19;
+}
+
+/* Contact Section */
+.contact-details {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.contact-details h3 {
+    color: #333;
+}
+
+.contact-details p {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-media a:hover {
+    color: #ff5722;
+}
+
+
